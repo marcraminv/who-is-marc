@@ -1,0 +1,26 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+    "name": "Contribute to Astro",
+    "forwardPorts": [4321],
+    "mounts": [],
+    "portsAttributes": {},
+    "containerEnv": {},
+    "remoteEnv":{},
+    "initializeCommand": {},
+    "onCreateCommand": {},
+    "updateContentCommand": {},
+    "postCreateCommand": {},
+    "postStartCommand": {},
+    "postAttachCommand": {},
+    "waitFor": "updateContentCommand",
+    "features": {},
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "astro-build.astro-vscode",
+                "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode"
+            ]
+        }
+    }
+}
